@@ -13,7 +13,9 @@ import redis.clients.jedis.JedisPoolConfig;
 import redis.clients.jedis.exceptions.JedisConnectionException;
 
 import com.code.memery.cache.ICacheAdmin;
-
+/**
+*缓存Redis管理
+*/
 public class CacheAdminRedis implements ICacheAdmin{
 
 	private static Logger _LOG = Logger.getLogger(CacheAdminRedis.class);
