@@ -14,7 +14,7 @@ import redis.clients.jedis.exceptions.JedisConnectionException;
 
 import com.code.memery.cache.ICacheAdmin;
 /**
-*缓存Redis管理
+*缓存Redis管理1
 */
 public class CacheAdminRedis implements ICacheAdmin{
 
