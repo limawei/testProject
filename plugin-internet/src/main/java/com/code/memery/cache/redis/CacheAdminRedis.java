@@ -18,7 +18,7 @@ import com.code.memery.cache.ICacheAdmin;
 */
 public class CacheAdminRedis implements ICacheAdmin{
 
-	private JedisPool pool1;
+	private JedisPool pool2;
 	
 	private static Logger _LOG = Logger.getLogger(CacheAdminRedis.class);
 	
